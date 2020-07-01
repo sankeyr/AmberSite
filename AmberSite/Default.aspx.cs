@@ -48,7 +48,7 @@ namespace AmberSite
                 //string subject = "Message from " + tbName.Text;
                 try
                 {
-                    var apiKey = Environment.GetEnvironmentVariable("");
+                    var apiKey = Environment.GetEnvironmentVariable("SendGridApiKey");
                     var client = new SendGridClient(apiKey);
                     var from = new EmailAddress(tbEmail.Text, tbName.Text);
                     var subject = "Message From ambersankeylpc.com";
@@ -123,9 +123,9 @@ namespace AmberSite
             {
                 var client = new System.Net.WebClient();
 
-                string PrivateKey = "6Lek1B4UAAAAAKjY7UzH_50Gv0PdcPY8SBZbqce0";
+                string PrivateKey = Environment.GetEnvironmentVariable("CaptchaPrivateKey"); 
 
-                var GoogleReply = client.DownloadString(string.Format("https://www.google.com/recaptcha/api/siteverify?secret={0}&response={1}", PrivateKey, EncodedResponse));
+               var GoogleReply = client.DownloadString(string.Format("https://www.google.com/recaptcha/api/siteverify?secret={0}&response={1}", PrivateKey, EncodedResponse));
 
                 var captchaResponse = Newtonsoft.Json.JsonConvert.DeserializeObject<ReCaptchaClass>(GoogleReply);
 
