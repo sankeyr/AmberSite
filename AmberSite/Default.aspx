@@ -345,6 +345,7 @@
                                       <p>Optum (United Healthcare)</p>
                                   </li>
                               </ul>
+                              <br />
                               <p>
                                   Please note that other insurances can be accepted at an out-of-network coverage rate.
                               </p>
