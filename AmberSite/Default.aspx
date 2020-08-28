@@ -322,8 +322,30 @@
                           <div class="service-text">
                               <h3>Is my insurance carrier in-network for you?</h3>
                               <p>
-                                  I currently am in-network with the following providers:  Blue Cross Blue Shield, Cigna, Optum (United Healthcare), and Medicaid
-                                  <br/><br/>
+                                  I currently am in-network with the following providers: 
+                                  <!--Blue Cross Blue Shield, Cigna, Optum (United Healthcare), and Medicaid-->
+                              </p>
+                              <ul style="color: #fff">
+                                  <li>
+                                      <p>Aetna</p>
+                                  </li>
+                                  <li>
+                                      <p>Blue Cross Blue Shield</p>
+                                  </li>
+                                  <li>
+                                      <p>Cigna</p>
+                                  </li>
+                                  <li>
+                                      <p>First Choice of the Midwest</p>
+                                  </li>
+                                  <li>
+                                      <p>Medicaid</p>
+                                  </li>
+                                  <li>
+                                      <p>Optum (United Healthcare)</p>
+                                  </li>
+                              </ul>
+                              <p>
                                   Please note that other insurances can be accepted at an out-of-network coverage rate.
                               </p>
                           </div>
