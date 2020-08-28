@@ -344,6 +344,12 @@
                                   <li>
                                       <p>Optum (United Healthcare)</p>
                                   </li>
+                                  <li>
+                                      <p>UMR</p>
+                                  </li>
+                                  <li>
+                                      <p>United Healthcare Student Resources</p>
+                                  </li>
                               </ul>
                               <br />
                               <p>
