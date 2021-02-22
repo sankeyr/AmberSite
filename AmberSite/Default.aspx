@@ -78,7 +78,7 @@
             </div>
              <%-- <div class="line" style="background-color: white; max-width: none; height:1px">
               </div>--%>
-       <div class="line" style="background-color: #92c500; max-width: none; padding:0px; margin: 0px; border-style: solid; border-color: white; border-width: 3px; text-align:center">
+       <div class="line" style="background-color: #92c500; max-width: none; padding:0px; margin: 0px; border-style: solid; border-color: white; border-width: 3px; text-align:center" hidden>
             <h4 style="color: white;">Now accepting new clients!</h4>
         </div>
          </nav>
